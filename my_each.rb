@@ -8,4 +8,6 @@ def my_each(my_array) # put argument(s) here
   
 end
 
-my_each(an_array).each
+my_each(an_array) do |item|
+  puts "#{item}"
+end 
