@@ -9,5 +9,5 @@ def my_each(my_array) # put argument(s) here
 end
 
 my_each([]) do |item|
-  puts "#{item}"
+  return "#{item}"
 end 
