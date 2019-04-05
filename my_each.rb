@@ -5,9 +5,9 @@ def my_each(my_array) # put argument(s) here
     yield (my_array[i])
     i += 1 
   end
-  my_array
+  
 end
 
-my_each(an_array) do |item|
+my_each(argument) do |item|
   puts "#{item}"
 end 
